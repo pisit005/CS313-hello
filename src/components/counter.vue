@@ -5,31 +5,31 @@
       <hr />
       <div class="row">
         <div class="col-md">
-          <button v-on:click="$ok" class="btn btn-info" id="indigo">
+          <button v-on:click="$ok" class="btn btn-info btn-danger">
             <i class="fas fa-check"></i>
           </button>
         </div>
 
         <div class="col-md">
-          <button v-on:click="$like" class="btn btn-info" id="indigo">
+          <button v-on:click="$like" class="btn btn-info btn-danger">
             <i class="fas fa-thumbs-up"></i>
           </button>
         </div>
 
         <div class="col-md">
-          <button v-on:click="$love" class="btn btn-info" id="indigo">
+          <button v-on:click="$love" class="btn btn-info btn-danger">
             <i class="fas fa-heart"></i>
           </button>
         </div>
 
         <div class="col-md">
-          <button v-on:click="$eiei" class="btn btn-info" id="indigo">
+          <button v-on:click="$eiei" class="btn btn-info btn-danger">
             <i class="fas fa-laugh-beam"></i>
           </button>
         </div>
 
         <div class="col-md">
-          <button v-on:click="$reset" class="btn btn-info" id="indigo">
+          <button v-on:click="$reset" class="btn btn-info btn-outline-success btn-dark">
             <i class="fas fa-trash-restore-alt"></i>
           </button>
         </div>
@@ -49,31 +49,31 @@
       <hr />
       <div class="row">
         <div class="col-md">
-          <button v-on:click="$ok1" class="btn btn-info" id="indigo">
+          <button v-on:click="$ok1" class="btn btn-info btn-danger" >
             <i class="fas fa-check"></i>
           </button>
         </div>
 
         <div class="col-md">
-          <button v-on:click="$like1" class="btn btn-info" id="indigo">
+          <button v-on:click="$like1" class="btn btn-info btn-danger" >
             <i class="fas fa-thumbs-up"></i>
           </button>
         </div>
 
         <div class="col-md">
-          <button v-on:click="$love1" class="btn btn-info" id="indigo">
+          <button v-on:click="$love1" class="btn btn-info btn-danger" >
             <i class="fas fa-heart"></i>
           </button>
         </div>
 
         <div class="col-md">
-          <button v-on:click="$eiei1" class="btn btn-info" id="indigo">
+          <button v-on:click="$eiei1" class="btn btn-info btn-danger" >
             <i class="fas fa-laugh-beam"></i>
           </button>
         </div>
 
         <div class="col-md">
-          <button v-on:click="$reset1" class="btn btn-info" id="indigo">
+          <button v-on:click="$reset1" class="btn btn-info btn-outline-success btn-dark" >
             <i class="fas fa-trash-restore-alt"></i>
           </button>
         </div>
