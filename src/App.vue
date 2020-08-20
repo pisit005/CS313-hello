@@ -1,20 +1,37 @@
-<template>
+<template >
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="PISIT KHONPAKWAEN" />
+      <div class=" l">
+        <counter lable=" "  />
+      </div>
   </div>
 </template>
 
+
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+import counter from "./components/counter.vue";
 
 export default {
-  name: 'App',
+
   components: {
-    HelloWorld
-  }
-}
+    HelloWorld,
+    counter,
+  },
+
+  data: function () {
+    return {
+      name: "",
+      id: "",
+      gpa: "",
+    };
+  },
+
+};
 </script>
+
+
 
 <style>
 #app {
@@ -22,7 +39,12 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #fafdff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 800;
+  
+  
+
 }
 </style>
